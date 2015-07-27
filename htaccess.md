@@ -25,16 +25,16 @@ The following snippet is modified/inspired by the version found [here](http://fo
     ExpiresDefault "access plus 1 month"
 
     # Images
-    ExpiresByType image/* "access plus 1 year"
+    ExpiresByType image/* "access plus 1 month"
 
     # favicon image override (if needed)
     # ExpiresByType image/x-icon "access plus 1 year"
 
     # CSS
-    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
 
     # Javascript
-    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 month"
 </IfModule>
 
 ```
